@@ -20,6 +20,7 @@ convertBtn.addEventListener("click", function(){
    ${inputEl} pounds = ${(inputEl / kilogramToPounds).toFixed(3)} kilos`    
     
     document.getElementById("input-box").value = "";
+    document.getElementById("input-box").style.width = '2ch';
 })
 
 
